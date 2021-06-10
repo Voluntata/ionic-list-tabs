@@ -1,0 +1,7 @@
+{
+  "name": "ionic-list-tabs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
