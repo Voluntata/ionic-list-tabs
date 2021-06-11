@@ -1,0 +1,23 @@
+{
+    "users": [{
+        "id": 1,
+        "name": "Byron Carlson"
+      }, {
+        "id": 2,
+        "name": "Sebastian Jacobs"
+      }, {
+        "id": 3,
+        "name": "Cassandra Holland"
+      }, {
+        "id": 4,
+        "name": "Henry Hanson"
+      },
+      {
+        "id": 5,
+        "name": "Chelsey Dietrich"
+      }, {
+        "id": 6,
+        "name": "Kurtis Weissnat"
+      }
+    ]
+  }

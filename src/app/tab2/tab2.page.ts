@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ListService } from '../list.service';
 
 @Component({
   selector: 'app-tab2',
@@ -7,6 +8,13 @@ import { Component } from '@angular/core';
 })
 export class Tab2Page {
 
-  constructor() {}
+  UsersList: any = [];
+
+
+  constructor(private listService: ListService) {
+    this.listService.getUsers().subscribe((res) => {
+      this.UsersList = res;
+    })
+  }
 
 }
